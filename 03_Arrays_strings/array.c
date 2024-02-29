@@ -1,6 +1,8 @@
 #include<stdio.h>
-#include<stdlib.h>
 int main()
 {
-	int (argc,*argv[]);
+	int a[]={1,2,3,4,5,6,7};
+        int len= sizeof (a)/ sizeof a[0];
+	printf("%d len",len);
+}
 
